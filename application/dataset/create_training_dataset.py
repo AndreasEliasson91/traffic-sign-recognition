@@ -15,8 +15,10 @@ def main():
     print(training_dataset[0])
 
     training_dataset.transform = transforms.ToPILImage()
-    training_dataset.plot_images(index=10)
-    training_dataset.plot_images(rows=3, cols=3)
+    # training_dataset.plot_images(index=76)
+    training_dataset.plot_images(cols=3, rows=3)
+
+    # training_dataset.plot_images(rows=3, cols=3)
 
 
 if __name__ == '__main__':

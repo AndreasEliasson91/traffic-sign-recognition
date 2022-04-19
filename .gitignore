@@ -3,5 +3,5 @@
 __pycache__/
 *.pyc
 
-# Andreas local data files
-data/training_data/signs/
+## Andreas local data files
+#data/training_data/signs/
