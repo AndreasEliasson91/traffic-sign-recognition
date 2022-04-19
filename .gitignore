@@ -4,4 +4,4 @@ __pycache__/
 *.pyc
 
 # Andreas local data files
-data/unzipped_signs/
+data/training_data/signs/
