@@ -14,7 +14,12 @@ class CustomImageDataset(Dataset):
     def __len__(self):
         return len(self.img_labels)
 
-    def __getitem__(self, i: int):
+    def __getitem__(self, i: int) -> tuple:
+        """
+        Loads and returns a sample from the dataset at a given index.
+        :param i: int, index
+        :return: tuple
+        """
         img_path = os.path.join(self.img_dir, self.img_labels.iloc[i, 0])
         image = read_image(img_path)
         label = self.img_labels.iloc[i, 1]
@@ -26,3 +31,15 @@ class CustomImageDataset(Dataset):
 
         return image, label
 
+    def transform(self, tensor=True) -> None:
+        """
+        Convert the dataset from PIL Images to tensors or vice versa.
+        :param tensor:
+        :return: None
+        """
+        from torchvision import transforms
+
+        if tensor:
+            self.transform = transforms.ToTensor()
+        else:
+            self.transform = transforms.ToPILImage()
