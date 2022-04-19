@@ -1,7 +1,25 @@
 import os
 import pandas as pd
 from torch.utils.data import Dataset
-from torchvision.io import read_image
+
+
+LABELS = {
+    'A': 'Warning Sign',
+    'B': 'Priority Sign',
+    'C': 'Prohibitory Sign',
+    'D': 'Mandatory Sign',
+    'E': 'Instruction Sign',
+    'F': 'Location Sign\n(Directions)',
+    'G': 'Location Sign\n(Information on Public Institutions etc.)',
+    'H': 'Location Sign\n(Information on Service Facilities etc.)',
+    'I': 'Location Sign\n(Information on Interesting Destinations etc.)',
+    'J': 'Information Sign',
+    'P': 'Signals by Policemen',
+    'S': 'Symbols',
+    'T': 'Additional Board',
+    'X': 'Other',
+    'Z': 'Uncategorized',
+}
 
 
 class CustomImageDataset(Dataset):
@@ -20,6 +38,8 @@ class CustomImageDataset(Dataset):
         :param i: int, index
         :return: tuple
         """
+        from torchvision.io import read_image
+
         img_path = os.path.join(self.img_dir, self.img_labels.iloc[i, 0])
         image = read_image(img_path)
         label = self.img_labels.iloc[i, 1]
@@ -31,15 +51,31 @@ class CustomImageDataset(Dataset):
 
         return image, label
 
-    def transform(self, tensor=True) -> None:
+    def plot_images(self, cols=1, rows=1, index=None) -> None:
         """
-        Convert the dataset from PIL Images to tensors or vice versa.
-        :param tensor:
+        Plot images in a given size (format: cols x rows)
+        :param cols: int, number of columns
+        :param rows: int, number of rows
+        :param index: int, get image by index else all
         :return: None
         """
-        from torchvision import transforms
+        import matplotlib.pyplot as plt
+        import torch
 
-        if tensor:
-            self.transform = transforms.ToTensor()
+        figure = plt.figure(figsize=(8, 8))
+
+        if not index:
+            for i in range(1, cols * rows + 1):
+                sample = torch.randint(len(self), size=(1,)).item()
+                img, label = self[sample]
+                figure.add_subplot(rows, cols, i)
+                plt.title(LABELS[label])
+                plt.axis("off")
+                plt.imshow(img)
         else:
-            self.transform = transforms.ToPILImage()
+            img, label = self[index]
+            plt.title(LABELS[label])
+            plt.axis("off")
+            plt.imshow(img)
+
+        plt.show()
