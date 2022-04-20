@@ -1,25 +1,9 @@
+import matplotlib.pyplot as plt
 import os
 import pandas as pd
+import torch
+
 from torch.utils.data import Dataset
-
-
-LABELS = {
-    'A': 'Warning Sign',
-    'B': 'Priority Sign',
-    'C': 'Prohibitory Sign',
-    'D': 'Mandatory Sign',
-    'E': 'Instruction Sign',
-    'F': 'Location Sign\n(Directions)',
-    'G': 'Location Sign\n(Information on Public Institutions etc.)',
-    'H': 'Location Sign\n(Information on Service Facilities etc.)',
-    'I': 'Location Sign\n(Information on Interesting Destinations etc.)',
-    'J': 'Information Sign',
-    'P': 'Signals by Policemen',
-    'S': 'Symbols',
-    'T': 'Additional Board',
-    'X': 'Other',
-    'Z': 'Uncategorized',
-}
 
 
 class CustomImageDataset(Dataset):
@@ -34,7 +18,7 @@ class CustomImageDataset(Dataset):
 
     def __getitem__(self, i: int) -> tuple:
         """
-        Loads and returns a sample from the dataset at a given index.
+        Loads and returns a sample from the datasets at a given index.
         :param i: int, index
         :return: tuple
         """
@@ -59,8 +43,7 @@ class CustomImageDataset(Dataset):
         :param index: int, get image by index else all
         :return: None
         """
-        import matplotlib.pyplot as plt
-        import torch
+        from application.data.data_utils import LABELS
 
         figure = plt.figure(figsize=(8, 8))
 
