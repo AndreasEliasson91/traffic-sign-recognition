@@ -4,5 +4,3 @@ __pycache__/
 *.pyc
 .DS_Store
 
-## Andreas local data files
-#data/training_data/signs/
