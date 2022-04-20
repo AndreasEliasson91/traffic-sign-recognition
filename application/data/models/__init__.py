@@ -1,5 +1,8 @@
+import matplotlib.pyplot as plt
 import os
 import pandas as pd
+import torch
+
 from torch.utils.data import Dataset
 
 
@@ -15,7 +18,7 @@ class CustomImageDataset(Dataset):
 
     def __getitem__(self, i: int) -> tuple:
         """
-        Loads and returns a sample from the dataset at a given index.
+        Loads and returns a sample from the datasets at a given index.
         :param i: int, index
         :return: tuple
         """
@@ -40,9 +43,7 @@ class CustomImageDataset(Dataset):
         :param index: int, get image by index else all
         :return: None
         """
-        import matplotlib.pyplot as plt
-        import torch
-        from application.dataset import LABELS
+        from application.data.data_utils import LABELS
 
         figure = plt.figure(figsize=(8, 8))
 
