@@ -28,6 +28,41 @@
 * Behöver du hjälp med något?  
 
 _____________________________________________________________________________________________
+## Daily standup 2022-04-20
+
+#### Andreas
+* Vad har du gjort sedan förra avstämningen?   
+  Skapat träningsdata utifrån wikipediabilder.
+* Vad ska du göra till nästa avstämning?  
+  Nästan ingen arbetstid till nästa avstämning, då föreläsning + sprintplanering tog nästan hela dagen.
+* Behöver du hjälp med något?  
+  Det är något skumt med färgåtergivningen på vissa bilder, se dialog på Discord.
+
+#### Alexander
+Ej närvarande
+* Vad har du gjort sedan förra avstämningen?  
+* Vad ska du göra till nästa avstämning?  
+* Behöver du hjälp med något?  
+
+#### Abshir
+Ej närvarande
+* Vad har du gjort sedan förra avstämningen?  
+* Vad ska du göra till nästa avstämning?  
+* Behöver du hjälp med något?  
+
+#### Fredrik
+Ej närvarande
+* Vad har du gjort sedan förra avstämningen?  
+* Vad ska du göra till nästa avstämning?  
+* Behöver du hjälp med något?  
+
+#### Kajsa
+* Vad har du gjort sedan förra avstämningen?  
+  Admin med mötesnoteringar, grävt lite i Linköpings-datan, tittat på problemet med färgåtergivning i bilder.  
+* Vad ska du göra till nästa avstämning?  
+  Nästan ingen arbetstid till nästa avstämning, då föreläsning + sprintplanering tog nästan hela dagen.
+* Behöver du hjälp med något?  
+  Nej  
 
 ## Daily standup 2022-04-19
 
