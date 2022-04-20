@@ -9,3 +9,4 @@ Fylls på efterhand!
 * Mötesanteckningar från daily standup och sprint review/planning läggs på github.
 * Engelska som grundregel i t ex kod, dokumentation, commit-meddelanden och i backlogs. Undantag för löptext i mötesnoteringar, som skrivs på svenska.
 * Enkelfnuttar som standard i Pythonkoden.
+* Vi döper branches på github till issue-numret som skapas automatiskt i Jira (MIP-XX]. 
