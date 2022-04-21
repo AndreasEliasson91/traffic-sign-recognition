@@ -35,7 +35,7 @@ def write_annotations(file_dir: str, out_dir: str) -> None:
         for i in range(len(LETTERS)):
             for file in listdir(file_dir):
                 if isfile(join(file_dir, file)) and LETTERS[i] in file:
-                    out_file.write(f'{file},{LETTERS[i]},{dict["description"]}\n')
+                    out_file.write(f'{file},{LETTERS[i]}\n')
 
 
 def rename_images(file_dir: str, out_dir: str) -> None:

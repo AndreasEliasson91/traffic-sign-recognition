@@ -52,7 +52,7 @@ class CustomImageDataset(Dataset):
                 sample = torch.randint(len(self), size=(1,)).item()
                 img, label = self[sample]
                 figure.add_subplot(rows, cols, i)
-                plt.title(LABELS[label])
+                # plt.title(LABELS[label])
                 plt.axis("off")
                 plt.imshow(img)
         else:
