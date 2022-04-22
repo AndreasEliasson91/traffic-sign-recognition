@@ -36,6 +36,57 @@
 * 
 _____________________________________________________________________________________________
 
+## Daily standup 2022-04-22
+
+#### Andreas
+* Vad har du gjort sedan förra avstämningen?  
+Löste problemet med färger på skyltarna.
+* Vad ska du göra till nästa avstämning?
+Fixa till mappstruktur för bilderna. Ska även dela upp wikipediadatat i tre olika set. Börjar sedan med MIP-16, att förbättra annotations för wikipediadatan.  
+* Behöver du hjälp med något?  
+Nej.
+
+#### Alexander
+* Vad har du gjort sedan förra avstämningen?  
+Var mest upptagen med jobb igår. Har fortsatt med att hitta underlag till beslut om presentationsgränssnitt (MIP-23). 
+* Vad ska du göra till nästa avstämning?  
+Göra klart runt beslutsunderlag om presentationsgränssnitt (MIP-23). Lägger upp info under dagen som alla kan titta på inför måndag.
+* Behöver du hjälp med något?  
+Nej.
+
+#### Abshir
+* Vad har du gjort sedan förra avstämningen?  
+Har kollat på bildinput via kameran (MIP-14), missförstånd att den inte var med i veckans sprint.
+* Vad ska du göra till nästa avstämning? 
+Titta på möjlighet att känna igen skyltar baserat på att maska färger (MIP-20)
+* Behöver du hjälp med något?  
+Nej.
+
+#### Fredrik
+* Vad har du gjort sedan förra avstämningen?  
+Sitter med Linköpingsdatan och håller på att plocka fram ett träningsset med ett antal tydliga skyltar. Jobbar också med formatet på annotations. Har guidat Britta till Linköpingsdatat.
+* Vad ska du göra till nästa avstämning?  
+Läsa in underlag om presentationsgränssnitt. Fortsätta med Linköpingsdatat (MIP-21, MIP-22).
+* Behöver du hjälp med något?  
+Beslut om struktur på annotationsdatan: Gruppen diskuterar och kommer fram till att man nog kan strukturera det så att bilder är en klass och att signs är en lista i klassen som innehåller ett dictionary för varje skylt.
+
+#### Kajsa
+* Vad har du gjort sedan förra avstämningen?  
+Jobbat med bildigenkänning med hjälp av former (MIP-19).
+* Vad ska du göra till nästa avstämning?  
+Ska fortsätta med MIP-19
+* Behöver du hjälp med något?  
+Nej.
+
+#### Britta
+Frånvarande
+
+#### Övrigt
+* Mötet på måndag blir kl 11 som preliminär tid. Alexander meddelar om tiden behöver justeras ytterligare. Kajsa är helt frånvarande på måndag.
+* Inför måndagsmötet läser alla in sig på underlag om presentationsgränssnitt.
+* Fredrik tar över stafettpinnen med att skriva mötesanteckningar inför nästa vecka.
+
+
 ## Daily standup 2022-04-21
 
 #### Andreas
