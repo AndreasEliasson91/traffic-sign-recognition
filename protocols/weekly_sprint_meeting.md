@@ -53,3 +53,35 @@ skall klara detta issue nästa gång?
 * Backlog: Finns i Jira, print screen nedan.
 * ![image](https://user-images.githubusercontent.com/91521207/164250773-9ebd918a-57b6-40c5-8d1c-d7054f352b18.png)
 
+
+
+## Sprint meeting week 17
+
+
+### Sprint review
+* Blev alla issues klara? 
+  Allt blev färdigt förutom en punkt
+  * Om inte, varför
+  "Classify training data (MIP-5)" Kommer med största sannorlikhet ligga kvar i sprintarna, 
+  då det tillkommer extra subtasks allt eftersom.
+  * 
+  * Icke klara issues återförs till backlog, efter att de har uppdaterats. Har vissa 
+delar klarats av? Skall vi ha en ny tidsuppskattning? Vad behövs för att vi 
+skall klara detta issue nästa gång?
+    klart
+  * Bedöm vad ni kan göra bättre i nästa sprint
+    - mer par-programmering, för att inkludera fler personer i alla delar av projektet.
+    - tydligare issues, med mer sub-tasks.
+  
+  * Har det kommit upp nya saker som skall läggas till på er backlog?
+  Ja
+
+### Sprint planning
+* Namn på sprinten: Research and Training
+* Beskrivning: Forska på vilken modell som passar bäst för uppgiften, 
+samt avrunda data-manipulering. Om vi hinner ska vi även försöka bygga en träningsmodell 
+att börja med.
+* Startdatum: 2022-04-26
+* Slutdatum: 2022-05-02
+* Backlog: Se JIRA
+* ![image] (...)
