@@ -35,13 +35,15 @@ def get_contours(img, img_contour):
 
 
 def main():
+    # img = cv.imread('../data/datasets/training_data/training_1.0/training'
+    #                 '/prohibitory_signs-e1bdaab4-c228-11ec-acd7-18cc1895e0b0.jpg')
     img = cv.imread('../data/datasets/training_data/training_1.0/training'
-                    '/prohibitory_signs-e1bdaab4-c228-11ec-acd7-18cc1895e0b0.jpg')
+                    '/warning_signs-e1b7de53-c228-11ec-8b52-18cc1895e0b0.jpg')
     img_blank = np.zeros_like(img)
     img_gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
     img_blur = cv.GaussianBlur(img_gray, (1, 1), 5)
     img_canny = cv.Canny(img_blur, 150, 200)
-    kernel = np.ones((3, 3), np.uint8)
+    kernel = np.ones((5, 5), np.uint8)
     img_di = cv.dilate(img_canny, kernel, iterations=4)
     img_eroded = cv.erode(img_di, kernel, iterations=4)
     img_contour = img.copy()
