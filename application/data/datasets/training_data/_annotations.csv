@@ -1,0 +1,31 @@
+img_name,category,id,sign,description
+warning_signs-e1b7de53-c228-11ec-8b52-18cc1895e0b0.jpg,warning_signs,A29-20,Varning för vägkorsning där trafikanter på anslutande väg har väjningsplikt eller stopplikt,Märket anger en vägkorsning där förare av fordon på anslutande vägar har väjningsplikt eller stopplikt. Symbolen är anpassad efter förhållandena på platsen
+warning_signs-e1b93df0-c228-11ec-8ee2-18cc1895e0b0.jpg,warning_signs,A03,Varning för nedförslutning,Märket anger brant nedförslutning. Siffran anger lutningen i procent och är anpassad till förhållandena på platsen
+warning_signs-e1b9b31c-c228-11ec-807f-18cc1895e0b0.jpg,warning_signs,A24,Varning för sidvind,Märket anger en vägsträcka där det ofta förekommer stark sidvind. Symbolen är anpassad efter förhållandena på platsen
+prohibitory_signs-e1bd5c93-c228-11ec-8b27-18cc1895e0b0.jpg,prohibitory_signs,C31-04,Hastighetsbegränsning,Märket anger förbud mot att föra fordon med högre hastighet än den som anges på märke
+prohibitory_signs-e1bdaab4-c228-11ec-acd7-18cc1895e0b0.jpg,prohibitory_signs,C31-09,Hastighetsbegränsning,Märket anger förbud mot att föra fordon med högre hastighet än den som anges på märke
+prohibitory_signs-e1be952f-c228-11ec-9dae-18cc1895e0b0.jpg,prohibitory_signs,C33-02,Stopp vid tull,Stopp vid tull
+prohibitory_signs-e1c15443-c228-11ec-8fec-18cc1895e0b0.jpg,prohibitory_signs,C13,Förbud mot trafik med terrängmotorfordon och terrängsläp,Förbud mot trafik med terrängmotorfordon och terrängsläp
+prohibitory_signs-e1c265ae-c228-11ec-8b58-18cc1895e0b0.jpg,prohibitory_signs,C39,Förbud mot att stanna och parkera fordon,"Märket anger förbud mot att stanna och parkera fordon. De närmare föreskrifterna till märke C35, förbud mot att parkera fordon, andra stycket gäller även till detta märke"
+prohibitory_signs-e1c265b0-c228-11ec-93cf-18cc1895e0b0.jpg,prohibitory_signs,C31-12,Hastighetsbegränsning,Märket anger förbud mot att föra fordon med högre hastighet än den som anges på märke
+mandatory_signs-e1c301f0-c228-11ec-9b35-18cc1895e0b0.jpg,mandatory_signs,D07-02,Påbjudna gång- och cykelbanor,"Märket anger banor som är delade genom vägmarkering, skiljeremsa eller liknande i en del för gående och en del för cyklande. Symbolernas placering på märket anger vilken del av banan som är avsedd för gående respektive cyklande. Om moped klass II inte får föras på banan anges det på en tilläggstavla"
+mandatory_signs-e1c32917-c228-11ec-a135-18cc1895e0b0.jpg,mandatory_signs,D08,Påbjuden ridväg,Märket anger även att gångtrafik är tillåten
+mandatory_signs-e1c3c54a-c228-11ec-9254-18cc1895e0b0.jpg,mandatory_signs,D01,Påbjuden körriktning,"Märket anger att fordon endast får föras i pilens eller, där två pilar finns, i endera pilens riktning. Symbolen är anpassad efter förhållandena på platsen"
+mandatory_signs-e1c3ec4b-c228-11ec-a09e-18cc1895e0b0.jpg,mandatory_signs,D02,Påbjuden körbana,"Märkena anger att fordon endast får föras förbi märket där pilen visar eller, där två pilar finns, där pilarna visar"
+instruction_signs-e1c43a71-c228-11ec-b2df-18cc1895e0b0.jpg,instruction_signs,E12-03,Rekommenderad lägre hastighet upphör,Rekommenderad lägre hastighet upphör. Märket behöver inte vara uppsatt om det ändå tydligt framgår att sträckan upphör
+instruction_signs-e1c4888c-c228-11ec-b1c8-18cc1895e0b0.jpg,instruction_signs,E12-07,Rekommenderad lägre hastighet upphör,Rekommenderad lägre hastighet upphör. Märket behöver inte vara uppsatt om det ändå tydligt framgår att sträckan upphör
+instruction_signs-e1c6d27f-c228-11ec-96b6-18cc1895e0b0.jpg,instruction_signs,E20-02,Områdesmärke,Märket anger att ett område börjar med de förbud eller tillåtelser som anges med det infogade märket. Avvikelser från anvisningarna på märket kan anges genom tilläggstavlor. Tidsbegränsningar kan även infogas i märket
+location_directions_signs-e1c9b8b1-c228-11ec-a2ee-18cc1895e0b0.jpg,location_directions_signs,F06,Tabellvägvisare,"Märket kan användas i stället för märke F5, vägvisare, och är uppsatt på kort avstånd före en korsning, cirkulationsplats eller i utfarten från en cirkulationsplats"
+location_directions_signs-e1caa362-c228-11ec-bb0e-18cc1895e0b0.jpg,location_directions_signs,F37,Avståndstavla,"Märket anger avståndet till angivna orter, platser, anläggningar eller liknande. Avståndet anges i kilometer"
+location_directions_signs-e1caa363-c228-11ec-8516-18cc1895e0b0.jpg,location_directions_signs,F05,Vägvisare,Märket är uppsatt i anslutning till en korsning. Om avstånd anges ska det anges i hela kilometer
+location_directions_signs-e1cb8dc6-c228-11ec-b8f6-18cc1895e0b0.jpg,location_directions_signs,F25-03,Körfält upphör,Märket anger att ett körfält tillfälligt är avstängt och att ett annat körfält kan användas i färdriktningen. Märket är anpassat efter förhållandena på platsen. Avvikelse från färg får inte ske
+location_public_signs-e1cc0301-c228-11ec-8fef-18cc1895e0b0.jpg,location_public_signs,G10,Handelsområde,Märket anger ett område för handel
+location_public_signs-e1cc2a04-c228-11ec-90d0-18cc1895e0b0.jpg,location_public_signs,G04,Akutsjukhus,Märket anger ett sjukhus med akutmottagning
+location_service_signs-e1cc5114-c228-11ec-9f0e-18cc1895e0b0.jpg,location_service_signs,H25,Gårdsbutik,Märket anger en anläggning med försäljning av lokalt tillverkade eller närodlade produkter
+location_service_signs-e1cced58-c228-11ec-8a4a-18cc1895e0b0.jpg,location_service_signs,H11,Campingplats,Märket anger en anläggning som tillhandahåller platser för såväl tält som fordon med bostadsutrymme
+location_service_signs-e1cd3b81-c228-11ec-88e3-18cc1895e0b0.jpg,location_service_signs,H16,Friluftsområde,Friluftsområde
+location_POI_signs-e1cdd7c1-c228-11ec-940a-18cc1895e0b0.jpg,location_POI_signs,I01,Turistväg,Märket anger en väg eller vägsträckning av turistiskt intresse
+location_POI_signs-e1cdd7c2-c228-11ec-be1e-18cc1895e0b0.jpg,location_POI_signs,I02,Turistområde,Symbolen på märket är anpassad till temat förturistområdet
+additional_boards-e1cf104c-c228-11ec-9ed2-18cc1895e0b0.jpg,additional_boards,T12-07,Riktning,Tavlan anger riktning till angivelsen på märket
+additional_boards-e1cf104d-c228-11ec-a814-18cc1895e0b0.jpg,additional_boards,T12-06,Riktning,Tavlan anger riktning till angivelsen på märket
+additional_boards-e1cf5e64-c228-11ec-a0f4-18cc1895e0b0.jpg,additional_boards,T12-04,Riktning,Tavlan anger riktning till angivelsen på märket
