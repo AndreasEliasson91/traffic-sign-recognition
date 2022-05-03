@@ -1,8 +1,7 @@
 import cv2
 import numpy as np
-
-from os import listdir, rename
-from os.path import isfile, join
+import pandas as pd
+import skimage.io
 
 LABELS = {
     'A': 'Warning Sign',
@@ -21,34 +20,74 @@ LABELS = {
     'X': 'Other',
     'Z': 'Uncategorized',
 }
-LETTERS = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'P', 'S', 'T', 'X', 'Z']
 
 
-def write_annotations(file_dir: str, out_dir: str) -> None:
+def write_annotations(in_file: str, out_file: str, img_dir: str) -> None:
     """
-    Write annotations to a .csv-file
-    :param file_dir: str, dir to the image files
-    :param out_dir: str, .csv-file to write to
+    Write annotations to .csv-file based on image names in the images' directory (img_dir)
+    :param in_file: str, file to get annotations from
+    :param out_file: str, file to write relevant annotations to
+    :param img_dir: str, directory with the images' files
     :return: None
     """
-    with open(out_dir, 'w') as out_file:
-        for i in range(len(LETTERS)):
-            for file in listdir(file_dir):
-                if isfile(join(file_dir, file)) and LETTERS[i] in file:
-                    out_file.write(f'{file},{LETTERS[i]}\n')
+    import os
+
+    with open(in_file, 'r') as in_f:
+        with open(out_file, 'w') as out_f:
+            out_f.write('img_name,category,id,sign,description\n')
+            for line in in_f.readlines():
+                if line.split(',')[0] in os.listdir(img_dir):
+                    out_f.write(line)
 
 
-def rename_images(file_dir: str, out_dir: str) -> None:
+def get_images(dataset: pd.DataFrame, key: str, img_dir: str) -> list[skimage.io.imread]:
     """
-    Rename image files
-    :param file_dir: str, dir to the image files
-    :param out_dir: str, new dir
-    :return: None
+    Get images from image path
+    :param dataset: pandas.Dataframe, dataset to get image names from
+    :param key: str, key to dataset image names
+    :param img_dir: str, image directory in project
+    :return: list, list of the images
     """
-    for i in range(len(LETTERS)):
-        for j, file in enumerate(listdir(file_dir)):
-            if LETTERS[i] in file:
-                rename(f'{file_dir}{file}', f'{out_dir}{LETTERS[i]}_0{j+1}.jpg')
+    from skimage.io import imread
+    from skimage.transform import resize
+    from tqdm import tqdm
+
+    temp = []
+
+    for img_name in tqdm(dataset[key]):
+        image_path = img_dir + str(img_name)
+        img = imread(image_path, as_gray=True)
+        img = resize(img, (100, 100), anti_aliasing=True)
+        img /= 255
+        img = img.astype('float32')
+        temp.append(img)
+
+    return temp
+
+
+def binary_encoder(training_y: list[str], validation_y: list[str]) -> tuple[bin, bin, list[str], list[str]]:
+    """
+    Encodes string labels to binary
+    :param training_y: list, y labels for training data (str)
+    :param validation_y: list, y labels för validation data (str)
+    :return: tuple of lists, training_y and validation_y in binary form
+                                and copies of the original training_y and validation_y
+    """
+    from sklearn.preprocessing import LabelBinarizer
+
+    encoder = LabelBinarizer()
+    temp_train = training_y.copy()
+    training_y = encoder.fit_transform(training_y)
+    temp_val = validation_y.copy()
+    validation_y = encoder.fit_transform(validation_y)
+
+    return training_y, validation_y, temp_train, temp_val
+
+
+def print_labels(binary_labels: bin, original_labels: list[str]) -> None:
+    """Simple print function to print the binary value for the y labels"""
+    for i, label in enumerate(original_labels):
+        print(f'{binary_labels[i]} = {label}')
 
 
 def stack_images(scale, img_array):
