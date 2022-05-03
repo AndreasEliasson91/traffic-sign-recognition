@@ -2,16 +2,6 @@
 
 ## Daily standup 2022-xx-xx
 
-#### Andreas
-* Vad har du gjort sedan förra avstämningen?  
-* Vad ska du göra till nästa avstämning?  
-* Behöver du hjälp med något?  
-
-#### Alexander
-* Vad har du gjort sedan förra avstämningen?  
-* Vad ska du göra till nästa avstämning?  
-* Behöver du hjälp med något?  
-
 #### Abshir
 * Vad har du gjort sedan förra avstämningen?  
 * Vad ska du göra till nästa avstämning?  
@@ -27,13 +17,7 @@
 * Vad ska du göra till nästa avstämning?  
 * Behöver du hjälp med något?  
 
-#### Britta
-* Vad har du gjort sedan förra avstämningen?  
-* Vad ska du göra till nästa avstämning?  
-* Behöver du hjälp med något?  
 
-#### Övrigt
-* 
 _____________________________________________________________________________________________
 
 ## Daily standup 2022-04-22
@@ -254,3 +238,53 @@ och kom till samma insikt där, vi kommer behöva maska bilderna innan vi kan te
 * Andreas missar morgondagens möte, då han har bokad veterinärtid.
 * Kajsa ska hämta ny jobbdator, och kommer inte närvara Fredag - måndag
 * Alexander faller bort Tors - måndag pga. danmarksresa
+
+
+
+## Daily standup 2022-04-29
+
+#### Andreas
+
+ * Vad har du gjort sedan förra avstämningen?
+Kört en tutorial på dataset, med CNN, med att omvandla till numeriska värden.
+* Vad ska du göra till nästa avstämning?
+fortsätter på samma spår
+* Behöver du hjälp med något?  
+nej
+
+#### Abshir
+* Vad har du gjort sedan förra avstämningen?  kollat youtube, och letat efter tutorials på maskning
+* Vad ska du göra till nästa avstämning?  ska börja bygga en notebook med maskninsfunktioner. 
+* Behöver du hjälp med något?  inget än
+
+#### Fredrik
+* Vad har du gjort sedan förra avstämningen?
+kollat upp hur Colabs funkar, och rensat bort ännu mer nolldata, och felaktiga skyltar i dataset.
+
+* Vad ska du göra till nästa avstämning?
+Forksat vidare på Detecto och PyVision
+* 
+* Behöver du hjälp med något?
+Nej
+
+#### Kajsa
+Ej tillgänglig
+
+
+
+## Daily standup 2022-05-02
+
+
+#### Fredrik
+* Vad har du gjort sedan förra avstämningen?
+* Jobbat med CSV-filen, och jobbat med och att parsa igenom den.
+* Vad ska du göra till nästa avstämning?  förtsätter med samma uppgift
+
+
+#### Andreas
+* Vad har du gjort sedan förra avstämningen? Jobbat vidare med sin CNN modell. 
+* Vad ska du göra till nästa avstämning?  fortsätter med samma uppgift
+
+
+#### Övrigt
+Tar sprint-planning 2022-05-03
