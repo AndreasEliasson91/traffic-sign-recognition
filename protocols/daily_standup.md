@@ -173,8 +173,7 @@ Frånvarande
 ## Daily standup 2022-04-19
 
 #### Andreas
-* Vad har du gjort sedan förra avstämningen?  
-  Sjuk + jobbat med initialt dataset.
+* Vad har du gjort sedan förra avstämningen?
 * Vad ska du göra till nästa avstämning?  
   Fortsätta med inititalt dataset.
 * Behöver du hjälp med något?  
@@ -210,3 +209,48 @@ Frånvarande
   
 #### Övrigt
 * Det är svårt att fylla på backloggen inför veckans sprint utan mer kunskap om hur vi ska gå tillväga. Vi bestämmer att invänta Joakims lektion imorgon innan vi slutför veckans sprintplanering.
+
+
+
+## Daily standup 2022-04-27
+
+#### Andreas
+* Vad har du gjort sedan förra avstämningen?
+Testade att köra 'Detecto' på wiki-datasetet. 
+Detta fungerar inte då det är hela bilden som är skylten, så gick över till Pytorchs version 
+och kom till samma insikt där, vi kommer behöva maska bilderna innan vi kan testa igen.
+
+* Vad ska du göra till nästa avstämning?  
+* Fortsätter kolla på image classification, och börjar med kategorisering.
+* Behöver du hjälp med något?  Nej, men sätter sig med Kajsa för att bolla idéer.
+
+#### Alexander
+* Vad har du gjort sedan förra avstämningen?  
+* Vad ska du göra till nästa avstämning?  
+* Behöver du hjälp med något?  
+
+**Frånvarande
+
+
+#### Abshir
+* Vad har du gjort sedan förra avstämningen?
+* Klar med sin issue att maskera bilder, ska mergas in.
+* Vad ska du göra till nästa avstämning? Ska se över om det gör att använda Pyvision med maskade bilder. 
+* Behöver du hjälp med något?  Vet inte ännu
+
+#### Fredrik
+* Vad har du gjort sedan förra avstämningen? Filtrerat alla bilderna, och annoterat upp Varnings-skyltar
+
+* Vad ska du göra till nästa avstämning?  Skriva om CSV-fil, och eventuellt formatera om den, så att den passar Detecto
+* Behöver du hjälp med något?  Nej
+
+#### Kajsa
+* Vad har du gjort sedan förra avstämningen? MIP-19. Jobbat med att identifiera konturer, har även testat "template matching" detta funkar med identiska pixlar och färger men KAN vara något att sätta sig in i. Släppt det just nu. 
+* Vad ska du göra till nästa avstämning?  Ska börja med MIP-40, och se om det fungerar på wiki-datan. Ska även sätta sig med Andreas och bolla idéer.
+* Behöver du hjälp med något?  
+
+
+#### Övrigt
+* Andreas missar morgondagens möte, då han har bokad veterinärtid.
+* Kajsa ska hämta ny jobbdator, och kommer inte närvara Fredag - måndag
+* Alexander faller bort Tors - måndag pga. danmarksresa
