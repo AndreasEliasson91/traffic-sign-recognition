@@ -288,3 +288,48 @@ Ej tillgänglig
 
 #### Övrigt
 Tar sprint-planning 2022-05-03
+
+
+## Daily standup 2022-05-04
+
+#### Andreas
+
+* Vad har du gjort sedan förra avstämningen?
+Testade att få numeriska värden till CNN-modellen och se om man får samma resultat
+
+* Vad ska du göra till nästa avstämning?
+Kolla vidare på CNN och se om man kan tweaka vår modell
+
+* Behöver du hjälp med något?  
+nej
+
+#### Abshir
+* Vad har du gjort sedan förra avstämningen?
+Läste på om CNN
+
+* Vad ska du göra till nästa avstämning?
+ Tar en genomgång med Fredrik om Linköping-setets uppbyggnad. Kolla om man ska konvertera csv-filen (annotation) till xml för att underlätta detecto
+ Utforska Yolo5
+ 
+* Behöver du hjälp med något?
+Nej
+
+#### Fredrik
+* Vad har du gjort sedan förra avstämningen?
+Kollat detecto 
+
+* Vad ska du göra till nästa avstämning?
+Kolla vidare på detecto och Linköping-setet. Kolla om man ska konvertera csv-filen (annotation) till xml
+
+* Behöver du hjälp med något?
+Nej
+
+#### Kajsa
+* Vad har du gjort sedan förra avstämningen?
+Kört lite inläsning igår
+
+* Vad ska du göra till nästa avstämning?
+Utforska hur man kan visualisera de dolda lagrena i ett Neuralt Nätverk, lägger till en JIRA-Issue
+
+* Behöver du hjälp med något?
+Nej
