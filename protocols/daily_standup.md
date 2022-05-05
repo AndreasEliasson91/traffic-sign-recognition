@@ -333,3 +333,53 @@ Utforska hur man kan visualisera de dolda lagrena i ett Neuralt Nätverk, lägge
 
 * Behöver du hjälp med något?
 Nej
+
+
+
+## Daily standup 2022-05-05
+
+#### Andreas
+* Vad har du gjort sedan förra avstämningen?
+Tweakade siffror i CNN-modellen för att få ett eventuellt bättre resultat. Började kolla hur man kan använda CNN-modellen för object detection och fann en tutorial för RCNN som vi kollar vidare på.
+
+* Vad ska du göra till nästa avstämning?
+Kolla upp Object Detection med RCNN
+
+* Behöver du hjälp med något?  
+nej
+
+
+#### Abshir
+* Vad har du gjort sedan förra avstämningen?
+Läste på om Yolov5
+
+* Vad ska du göra till nästa avstämning?
+Fortsätta testa Yolov5 och bygga ett litet test.
+(Kolla upp Object Detection med RCNN)
+ 
+* Behöver du hjälp med något?
+Nej
+
+
+#### Fredrik
+* Vad har du gjort sedan förra avstämningen?
+Färdigställt Linköping-setet 1.0 och teskör det i Detecto under dagen. Konverterat annotation-filen till xml (fungerar bra med RCNN-algoritmen vi ska testa)
+
+* Vad ska du göra till nästa avstämning?
+Teskör LU-setet i Detecto under dagen
+Kolla upp Object Detection med RCNN
+
+* Behöver du hjälp med något?
+Nej
+
+
+#### Kajsa
+* Vad har du gjort sedan förra avstämningen?
+Labbade med "Hidden Layer". Kom fram till att det tyvärr är lite outvecklat och mycket småfix/problemlösning av smågrejer
+
+* Vad ska du göra till nästa avstämning?
+Fortsätta från morgondagen och gärna få det att lyckas. Funkar det, så funkar det (inget akut behov, men kul om det lyckas)
+Kolla upp Object Detection med RCNN
+
+* Behöver du hjälp med något?
+Nej
