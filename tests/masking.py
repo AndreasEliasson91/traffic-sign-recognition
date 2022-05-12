@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-from application.data.data_utils import stack_images
+from application.src.utils.data import stack_images
 
 
 def main():
