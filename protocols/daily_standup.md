@@ -7,6 +7,11 @@
 * Vad ska du göra till nästa avstämning?  
 * Behöver du hjälp med något?  
 
+#### Andreas
+* Vad har du gjort sedan förra avstämningen?  
+* Vad ska du göra till nästa avstämning?  
+* Behöver du hjälp med något?  
+
 #### Fredrik
 * Vad har du gjort sedan förra avstämningen?  
 * Vad ska du göra till nästa avstämning?  
@@ -19,6 +24,39 @@
 
 
 _____________________________________________________________________________________________
+
+## Daily standup 2022-05-12
+
+#### Abshir
+Frånvarande 
+
+#### Andreas
+* Vad har du gjort sedan förra avstämningen?  
+Städat och strukturerat om i projektet. MIP-69.
+Tillsammans med Kajsa jobbat med att få in RCNN-notebooken i projektet (MIP-65).
+* Vad ska du göra till nästa avstämning?  
+Se om vi kan optimera bilderna för att få upp hastigheten (MIP-58)
+* Behöver du hjälp med något?  
+Nej. Eventuellt sedan, om det är något problem med bilderna.
+
+#### Fredrik
+* Vad har du gjort sedan förra avstämningen?  
+Mergat in senaste version av LU-datan. Har processat bilderna lite, bl a för att få ner storleken. Kör just nu träning på det nya datasettet.
+* Vad ska du göra till nästa avstämning?  
+Kör just nu träning på den nya versionen av datasetet, samt utforskar optimeringsmöjligheter (MIP-62)
+* Behöver du hjälp med något?  
+Nej, inte just nu!
+
+#### Kajsa
+* Vad har du gjort sedan förra avstämningen?  
+Jobbat med att få in RCNN-notebooken i projektet (MIP-65).
+* Vad ska du göra till nästa avstämning?  
+Buggfixar, MIP-67 och MIP-68.
+* Behöver du hjälp med något?  
+Nej.
+
+#### Övrigt
+Vi bestämmer att merga in den strukturen som Andreas har fixat med (MIP-69, branch restructured).
 
 ## Daily standup 2022-04-22
 
