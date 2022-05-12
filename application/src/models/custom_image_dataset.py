@@ -7,6 +7,7 @@ from torch.utils.data import Dataset
 
 
 class CustomImageDataset(Dataset):
+    """Create a custom image dataset to use in the CNN-model"""
     def __init__(self, annotations_file: str, img_dir: str, transform=None, target_transform=None) -> None:
         self.img_labels = pd.read_csv(annotations_file)
         self.img_dir = img_dir
