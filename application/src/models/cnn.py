@@ -3,6 +3,7 @@ from torch.optim import Adam
 
 
 class ConvolutionalNeuralNetwork(Module):
+    """Our CNN-model"""
     def __init__(self, size: int) -> None:
         super(ConvolutionalNeuralNetwork, self).__init__()
         self.cnn_layers = Sequential(
