@@ -1,3 +1,6 @@
+import time
+
+
 class TimerError(Exception):
     """Custom exception for timer error"""
 
@@ -7,16 +10,12 @@ class Timer:
         self._start_time = None
 
     def start(self) -> None:
-        import time
-
         if self._start_time is not None:
             raise TimerError(f'Timer is !\nUse .stop() to stop it.')
 
         self._start_time = time.perf_counter()
 
     def stop(self) -> None:
-        import time
-
         if self._start_time is None:
             raise TimerError(f'Timer is not running!\n Use .start() to start it.')
 

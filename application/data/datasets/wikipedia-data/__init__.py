@@ -2,9 +2,9 @@ import numpy as np
 import pandas as pd
 import torch
 
-from application.src.utils import Timer
-from application.data.data_utils import binary_encoder, get_images
-from application.src.models import NeuralNetwork
+from application.src.utils.timer import Timer
+from application.src.utils.data import binary_encoder, get_images
+from application.src.models.cnn import ConvolutionalNeuralNetwork
 from sklearn.metrics import accuracy_score
 from sklearn.model_selection import train_test_split
 from torch.nn import CrossEntropyLoss
@@ -38,7 +38,7 @@ def main():
     test_x = test_x.reshape(test_x.shape[0], 1, 100, 100)
     test_x = torch.from_numpy(test_x)
 
-    model = NeuralNetwork(train_x.shape[0])
+    model = ConvolutionalNeuralNetwork(train_x.shape[0])
 
     train_y, test_y, training_labels, validation_labels = binary_encoder(train_y, test_y)
     # print_labels(train_y, training_labels)
