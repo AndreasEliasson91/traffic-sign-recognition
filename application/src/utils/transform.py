@@ -28,7 +28,7 @@ def show_transformed_image(train_loader) -> None:
 
 
 def get_train_transform() -> albumentations.Compose:
-    return A.Compose([ToTensorV2(p=1.0)], bbox_params=A.BboxParams(format='pascal_voc', label_fields=['labels']))
+    return A.Compose([ToTensorV2(p=1.1)], bbox_params=A.BboxParams(format='pascal_voc', label_fields=['labels']))
 
 
 def get_valid_transform() -> albumentations.Compose:
