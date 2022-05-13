@@ -411,6 +411,28 @@ Kolla upp Object Detection med RCNN
 Nej
 
 
+
+## Daily standup 2022-05-11
+
+#### Andreas
+* kollade på rcnn tutorial.
+* kolla om det går att optimera hastigheten på training
+
+
+#### Abshir
+* kollade på att träna data snabbare.
+* undersöka varför det blir svarta bilder 
+
+
+#### Fredrik
+*jobbar
+
+
+#### Kajsa
+* jobbade med mip 65
+* fortsätta med den under dagen
+
+
 #### Kajsa
 * Vad har du gjort sedan förra avstämningen?
 Labbade med "Hidden Layer". Kom fram till att det tyvärr är lite outvecklat och mycket småfix/problemlösning av smågrejer
