@@ -1,4 +1,3 @@
-import cv2
 import glob as glob
 import numpy as np
 import os
@@ -7,6 +6,7 @@ import torch
 from application.src.config import TRAIN_DIR, RESIZE_TO, VALID_DIR, CLASSES, BATCH_SIZE
 from application.src.utils.transform import get_train_transform, get_valid_transform
 from application.src.utils import collate_fn
+from PIL import Image
 from torch.utils.data import Dataset, DataLoader
 from xml.etree import ElementTree as et
 
@@ -25,14 +25,11 @@ class LUDataset(Dataset):
         self.all_images = sorted(self.all_images)
 
     def __getitem__(self, i: int) -> tuple:
-        image_name = self.all_images[i]
-        image_path = os.path.join(self.dir_path, image_name)
+        image_path = os.path.join(self.dir_path, self.all_images[i])
+        image = Image.open(image_path).convert('RGB')
+        image = np.array(image).astype(np.float32)
 
-        image = cv2.imread(image_path)
-
-        image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB).astype(np.float32)
-        image_resized = cv2.resize(image, (self.width, self.height))
-        image_resized /= 255.0
+        image_resized = image_arr.resize((self.width, self.height))
 
         annot_filename = image_name[:-4] + '.xml'
         annot_file_path = os.path.join(self.dir_path, annot_filename)
