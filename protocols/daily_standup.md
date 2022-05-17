@@ -1,5 +1,25 @@
 **Mall "daily standup"**
 
+## Daily standup 2022-05x17
+
+#### Abshir
+* kollat på sätt att göra visualization funktion 
+* få ner det i kod
+* Behöver du hjälp med något?  nej
+
+#### Andreas
+* har gjort en intial prediction
+* fortsätta med 
+* Behöver du hjälp med något?  nej
+
+#### Fredrik
+frånvarande / jobb  
+
+#### Kajsa
+* jobbat med en mip 25 
+* fortsätta 
+* Behöver du hjälp med något?  
+
 ## Daily standup 2022-xx-xx
 
 #### Abshir
@@ -212,6 +232,28 @@ Utforska hur man kan visualisera de dolda lagrena i ett Neuralt Nätverk, lägge
 
 * Behöver du hjälp med något?
 Nej
+
+
+## Daily standup 2022-05-11
+
+#### Andreas
+* fixade med strukturen och lite bugfix
+* idag ska jag kolla på mip 68
+
+
+#### Abshir 
+
+* jbba på mip 67
+
+
+#### Fredrik
+* frånvarande jobbar
+
+
+#### Kajsa
+* frånvarande
+
+
 ___________________________________________________________________
 
 
