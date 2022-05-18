@@ -23,6 +23,57 @@
 * Behöver du hjälp med något?  
 
 _____________________________________________________________________________________________
+## Daily standup 2022-05-18
+
+#### Abshir
+* Vad har du gjort sedan förra avstämningen?  
+Försökte får visualiserings-funktionen
+* Vad ska du göra till nästa avstämning?  
+Fortsätter med visualiserings-funktionen
+* Behöver du hjälp med något?  
+Nej.
+
+#### Andreas
+* Vad har du gjort sedan förra avstämningen?  
+Fortastte med predict-funktionen och bollade med Fredrik hur man ska gå framåt.
+* Vad ska du göra till nästa avstämning?  
+Prediction-funktion kraschar pga xml-filerna, ska kolla på det
+* Behöver du hjälp med något?  
+Nej.
+
+#### Fredrik
+Frånvarande
+
+#### Kajsa
+* Vad har du gjort sedan förra avstämningen?  
+Input från fil (MIP-25)
+* Vad ska du göra till nästa avstämning?  
+Ska kolla MIP-25 och MIP-56 med Joakim och ta det därifrån hur jag går vidare
+* Behöver du hjälp med något?  
+Nej.
+
+
+
+## Daily standup 2022-05x17
+
+#### Abshir
+* kollat på sätt att göra visualization funktion 
+* få ner det i kod
+* Behöver du hjälp med något?  nej
+
+#### Andreas
+* har gjort en intial prediction
+* fortsätta med 
+* Behöver du hjälp med något?  nej
+
+#### Fredrik
+frånvarande / jobb  
+
+#### Kajsa
+* jobbat med en mip 25 
+* fortsätta 
+* Behöver du hjälp med något?
+
 ## Daily standup 2022-05-16
 
 #### Abshir
@@ -212,6 +263,28 @@ Utforska hur man kan visualisera de dolda lagrena i ett Neuralt Nätverk, lägge
 
 * Behöver du hjälp med något?
 Nej
+
+
+## Daily standup 2022-05-11
+
+#### Andreas
+* fixade med strukturen och lite bugfix
+* idag ska jag kolla på mip 68
+
+
+#### Abshir 
+
+* jbba på mip 67
+
+
+#### Fredrik
+* frånvarande jobbar
+
+
+#### Kajsa
+* frånvarande
+
+
 ___________________________________________________________________
 
 
