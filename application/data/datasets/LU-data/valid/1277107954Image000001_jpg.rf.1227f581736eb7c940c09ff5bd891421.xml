@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>1277107954Image000001_jpg.rf.1227f581736eb7c940c09ff5bd891421.jpg</filename>
+	<path>1277107954Image000001_jpg.rf.1227f581736eb7c940c09ff5bd891421.jpg</path>
+	<source>
+		<database>roboflow.ai</database>
+	</source>
+	<size>
+		<width>1280</width>
+		<height>960</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>WARNING_BAD_ROAD</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>633</xmin>
+			<xmax>672</xmax>
+			<ymin>486</ymin>
+			<ymax>521</ymax>
+		</bndbox>
+	</object>
+</annotation>

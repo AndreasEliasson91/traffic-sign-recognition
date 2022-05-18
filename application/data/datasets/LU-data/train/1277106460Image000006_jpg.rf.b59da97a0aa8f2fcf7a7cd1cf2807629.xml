@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>1277106460Image000006_jpg.rf.b59da97a0aa8f2fcf7a7cd1cf2807629.jpg</filename>
+	<path>1277106460Image000006_jpg.rf.b59da97a0aa8f2fcf7a7cd1cf2807629.jpg</path>
+	<source>
+		<database>roboflow.ai</database>
+	</source>
+	<size>
+		<width>1280</width>
+		<height>960</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>WARNING_CROSSING_ROAD</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>335</xmin>
+			<xmax>350</xmax>
+			<ymin>456</ymin>
+			<ymax>472</ymax>
+		</bndbox>
+	</object>
+</annotation>
