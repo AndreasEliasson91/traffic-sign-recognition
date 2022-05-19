@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>1277107542Image000016_jpg.rf.a30d53ab047cc765fddf77776feecb5d.jpg</filename>
+	<path>1277107542Image000016_jpg.rf.a30d53ab047cc765fddf77776feecb5d.jpg</path>
+	<source>
+		<database>roboflow.ai</database>
+	</source>
+	<size>
+		<width>1280</width>
+		<height>960</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>WARNING_SHARP_CURVES</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>549</xmin>
+			<xmax>621</xmax>
+			<ymin>343</ymin>
+			<ymax>409</ymax>
+		</bndbox>
+	</object>
+</annotation>

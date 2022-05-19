@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>1277106963Image000003_jpg.rf.9164881fddea4384c22cb9ee0a996a0d.jpg</filename>
+	<path>1277106963Image000003_jpg.rf.9164881fddea4384c22cb9ee0a996a0d.jpg</path>
+	<source>
+		<database>roboflow.ai</database>
+	</source>
+	<size>
+		<width>1280</width>
+		<height>960</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>WARNING_RAIL_CROSSING</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>346</xmin>
+			<xmax>376</xmax>
+			<ymin>411</ymin>
+			<ymax>440</ymax>
+		</bndbox>
+	</object>
+</annotation>
