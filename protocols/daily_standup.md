@@ -74,6 +74,7 @@ frånvarande / jobb
 * fortsätta 
 * Behöver du hjälp med något?
 
+
 ## Daily standup 2022-05-16
 
 #### Abshir
@@ -283,6 +284,7 @@ Nej
 
 #### Kajsa
 * frånvarande
+
 
 
 ___________________________________________________________________
@@ -562,3 +564,4 @@ Frånvarande
   
 #### Övrigt
 * Det är svårt att fylla på backloggen inför veckans sprint utan mer kunskap om hur vi ska gå tillväga. Vi bestämmer att invänta Joakims lektion imorgon innan vi slutför veckans sprintplanering.
+
