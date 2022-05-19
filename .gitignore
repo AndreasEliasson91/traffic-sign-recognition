@@ -3,6 +3,4 @@
 __pycache__/
 *.pyc
 .DS_Store
-
-tests/broken_images/
-
+*.pth
