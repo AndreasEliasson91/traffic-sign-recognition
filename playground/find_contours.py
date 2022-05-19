@@ -1,6 +1,6 @@
-import cv2 as cv
 import numpy as np
-from application.data.data_utils import stack_images
+import cv2 as cv
+from application.src.utils.data import stack_images
 
 
 def get_contours(img, img_contour):
@@ -37,8 +37,7 @@ def get_contours(img, img_contour):
 def main():
     # img = cv.imread('../data/datasets/training_data/training_1.0/training'
     #                 '/prohibitory_signs-e1bdaab4-c228-11ec-acd7-18cc1895e0b0.jpg')
-    img = cv.imread('../data/datasets/training_data/training_1.0/training'
-                    '/warning_signs-e1b7de53-c228-11ec-8b52-18cc1895e0b0.jpg')
+    img = cv.imread('../application/data/datasets/wikipedia-data/training_1.0/additional_boards-e1cf104d-c228-11ec-a814-18cc1895e0b0.jpg')
     img_blank = np.zeros_like(img)
     img_gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
     img_blur = cv.GaussianBlur(img_gray, (1, 1), 5)
