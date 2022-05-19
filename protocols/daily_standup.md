@@ -23,6 +23,50 @@
 * Behöver du hjälp med något?  
 
 _____________________________________________________________________________________________
+## Daily standup 2022-05-19
+
+#### Abshir
+* Vad har du gjort sedan förra avstämningen?  Försökt få till visualisering på bilderna, 
+och hittade inget bra att jobba med.
+
+* Vad ska du göra till nästa avstämning? ska kolla igenom Andreas lösning på Visualiseringen, och se om vi kan ändra. 
+
+* Behöver du hjälp med något?  Nej, men skriver i gruppen om problem uppstår.
+
+#### Andreas
+* Vad har du gjort sedan förra avstämningen?
+städat i filstrukturen och ordnat en visualiserings-funktion som kan visa en ruta runt våran prediction. 
+har flyttat accuracy-limit från modellen till config-filen
+har byggt om våran LUDataloader till en klass, som laddar modellen.
+Bråkat med GIT, som löste sig nu på morgonen.
+
+
+* Vad ska du göra till nästa avstämning?
+Ska ordna upp dokumentation på funktioner och filer, så att Joakim, 
+och andra besökare kan få en lättare översikt på projektstrukturen.
+
+* Behöver du hjälp med något?  Nej
+
+#### Fredrik
+* Vad har du gjort sedan förra avstämningen?  Jobbat, och arbetat med predict funktionalitet.
+Vad ska du göra till nästa avstämning?  se över Slides-funktionen i Notebook, 
+och se om vi kan använda det i samband med presentation
+
+* Behöver du hjälp med något?  Nej
+
+#### Kajsa
+* Vad har du gjort sedan förra avstämningen?
+Jobbat med widgets, och även utforskat Hidden Layers, vilket vi släpper tillsvidare.
+
+* Vad ska du göra till nästa avstämning?  
+Ska fortsätta med widgets, och ska se över möjligheterna att göra om widgets-input till PIL-image.
+
+* Behöver du hjälp med något?  Skriver i gruppen om jag stöter på problem.
+_____________________________________________________________________________________________
+
+
+
+
 ## Daily standup 2022-05-18
 
 #### Abshir
@@ -73,6 +117,7 @@ frånvarande / jobb
 * jobbat med en mip 25 
 * fortsätta 
 * Behöver du hjälp med något?
+
 
 ## Daily standup 2022-05-16
 
@@ -283,6 +328,7 @@ Nej
 
 #### Kajsa
 * frånvarande
+
 
 
 ___________________________________________________________________
@@ -562,3 +608,4 @@ Frånvarande
   
 #### Övrigt
 * Det är svårt att fylla på backloggen inför veckans sprint utan mer kunskap om hur vi ska gå tillväga. Vi bestämmer att invänta Joakims lektion imorgon innan vi slutför veckans sprintplanering.
+
