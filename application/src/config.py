@@ -1,3 +1,8 @@
+"""
+Configuration file to keep track of all our project-wide variables
+"""
+
+
 import torch
 
 from application.src.utils import get_root_path

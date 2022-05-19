@@ -1,3 +1,7 @@
+"""
+The CustomDataset class creates a dataset with images and associated annotation-file (xml-format)
+"""
+
 import glob as glob
 
 import cv2
@@ -13,7 +17,6 @@ from xml.etree import ElementTree as et
 
 
 class CustomDataset(Dataset):
-    """Creating a dataset for the RCNN-model"""
     def __init__(self, dir_path, width, height, classes, transforms=None) -> None:
         self.transforms = transforms
         self.dir_path = dir_path
