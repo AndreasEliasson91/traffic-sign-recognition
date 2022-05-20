@@ -35,10 +35,8 @@ def print_result(labels: list, scores=None) -> None:
     :return: None
     """
     if scores:
-        print('*' * 20, '\n\nPredicted signs:')
         [print(f'Sign: {label} - Accuracy: {scores[i]}%') for i, label in enumerate(labels)]
     else:
-        print('*' * 20, '\n\nActual signs:')
         [print(f'Sign: {label}') for label in labels]
 
 

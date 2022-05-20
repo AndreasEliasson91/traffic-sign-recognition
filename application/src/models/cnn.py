@@ -1,9 +1,13 @@
+"""
+This file contains our initial neural network model.
+We used it with the wikipedia dataset
+"""
+
 from torch.nn import BatchNorm2d, Conv2d, CrossEntropyLoss, Linear, MaxPool2d, Module, ReLU, Sequential
 from torch.optim import Adam
 
 
 class ConvolutionalNeuralNetwork(Module):
-    """Our CNN-model"""
     def __init__(self, size: int) -> None:
         super(ConvolutionalNeuralNetwork, self).__init__()
         self.cnn_layers = Sequential(
