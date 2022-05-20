@@ -35,8 +35,6 @@ def get_contours(img, img_contour):
 
 
 def main():
-    # img = cv.imread('../data/datasets/training_data/training_1.0/training'
-    #                 '/prohibitory_signs-e1bdaab4-c228-11ec-acd7-18cc1895e0b0.jpg')
     img = cv.imread('../application/data/datasets/wikipedia-data/training_1.0/additional_boards-e1cf104d-c228-11ec-a814-18cc1895e0b0.jpg')
     img_blank = np.zeros_like(img)
     img_gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
