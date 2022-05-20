@@ -26,7 +26,7 @@ def show(image, labels, boxes) -> None:
     """
     from matplotlib.patches import Rectangle
 
-    plt.imshow(np.transpose(image[0].numpy(), (1, 2, 0)))
+    plt.imshow(image)
 
     for i in range(len(boxes)):
         x_min = int(boxes[i][0])
