@@ -23,6 +23,36 @@
 * Behöver du hjälp med något?  
 
 _____________________________________________________________________________________________
+## Daily standup 2022-05-20
+
+#### Abshir
+Frånvarande
+
+#### Andreas
+* Vad har du gjort sedan förra avstämningen?  
+Fixade dokumentation på vissa ställen, samt städade en del oanvända filer.
+* Vad ska du göra till nästa avstämning?  
+Andreas och Kajsa sätter ihop predictkoden med file input (MIP-79).
+* Behöver du hjälp med något?  
+Nej
+
+#### Fredrik
+* Vad har du gjort sedan förra avstämningen?  
+Undersökt lite om Jupyter slideshow inför presentationsgränssnitt (MIP-80).
+* Vad ska du göra till nästa avstämning?  
+Fortsätta med presentationsgränssnitt (MIP-80). Försöker få med sig Abshir på denna. Samt behöver lägga lite tid på att allmänt uppdatera sig i projektkoden.
+* Behöver du hjälp med något?  
+Nej.
+
+#### Kajsa
+* Vad har du gjort sedan förra avstämningen?  
+MIP-25, fil-input. Drog ner master utan problem efter gårdagens githubstrul och har uppdaterat och städat bort brancher.
+* Vad ska du göra till nästa avstämning?  
+Andreas och Kajsa sätter ihop predictkoden med file input (MIP-79).
+* Behöver du hjälp med något?  
+Nej.
+__________________________________________________________
+
 ## Daily standup 2022-05-19
 
 #### Abshir
