@@ -19,6 +19,34 @@ skall klara detta issue nästa gång?
 
 _______________________________________________________________________________________
 
+
+## Sprint meeting week 21
+
+
+### Sprint review
+* Blev alla issues klara? 
+  MIP-80, MIP-82, MIP-83. Alla flyttas till næsta sprint, då de är på gång 
+* Om inte, varför<br>
+  - MIP-80, bortprioriterad i denna sprint
+  - MIP-82, bortprioriterad i denna sprint
+  - MIP-83, den skrevs i fredags. In-progress
+  
+* Bedöm vad ni kan göra bättre i nästa sprint
+<br><br>Vår bästa sprint under projektet. Alla oklara issues har dykt upp under sprintens gång och framförallt sent på veckan.<br>
+  - Bättre på att förutse framtida problem/issues redan under sprint-mötet
+  
+* Har det kommit upp nya saker som skall läggas till på er backlog?
+<br>Delvis under veckan, men det kommer tillkomma mer. Vi ska träna om modellen på Fredriks nya dataset, ha ett möte om presentation
+
+### Sprint planning
+* Namn på sprinten: __Final Sprint!__
+* Beskrivning: Avsluta de sista detaljerna i applikationen, samt träna om vår modell på vårt final dataset och verifiera pricksäkerheten för den modellen<br>Planera presentation för klassen.<br>
+* Startdatum: 2022-05-23
+* Slutdatum: 2022-05-31
+* Backlog: Inget kvar... Just nu iallafall..
+
+
+
 ## Sprint meeting week 20
 
 
