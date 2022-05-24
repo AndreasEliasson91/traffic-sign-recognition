@@ -1,5 +1,71 @@
 **Mall "daily standup"**
 
+## Daily standup 2022-XX-XX
+
+#### Abshir
+* Vad har du gjort sedan förra avstämningen?  
+* Vad ska du göra till nästa avstämning?  
+* Behöver du hjälp med något?  
+
+#### Andreas
+* Vad har du gjort sedan förra avstämningen?  
+* Vad ska du göra till nästa avstämning?  
+* Behöver du hjälp med något?  
+
+#### Fredrik
+* Vad har du gjort sedan förra avstämningen?  
+* Vad ska du göra till nästa avstämning?  
+* Behöver du hjälp med något?  
+
+#### Kajsa
+* Vad har du gjort sedan förra avstämningen?  
+* Vad ska du göra till nästa avstämning?  
+* Behöver du hjälp med något?  
+
+#### Övrigt  
+
+____________________________________________________________________________________________________
+
+
+## Daily standup 2022-05-24
+
+#### Abshir
+* Vad har du gjort sedan förra avstämningen?  
+Jobbade med LIA igår.
+* Vad ska du göra till nästa avstämning?  
+Ska jobba idag.
+* Behöver du hjälp med något?  
+Nej.
+
+#### Andreas
+* Vad har du gjort sedan förra avstämningen?  
+Började med presentationsnotebook. Andreas visar det han har gjort hittills för avstämning och gruppen tycker att det ser bra ut.
+* Vad ska du göra till nästa avstämning?  
+Tittar på att förbättra legend till visualiseringen (MIP-88). Kommer även att lägga en del tid på LIA.
+* Behöver du hjälp med något?  
+Nej.
+
+#### Fredrik
+* Vad har du gjort sedan förra avstämningen?  
+Suttit med datan och bland annat justerat för överrepresenterade bilder. Försökt att köra träning, men fastnade på att Roboflowlicensen behövde utökas.
+* Vad ska du göra till nästa avstämning?  
+Köra träning av modellen. Kommer inte att vara så tillgänglig resten av veckan pga jobb.
+* Behöver du hjälp med något?  
+Nej.
+
+#### Kajsa
+* Vad har du gjort sedan förra avstämningen?  
+Jobbat med verifieringsfunktion, MIP-82. Kajsa lyfter frågan vad som egentligen är bra kvalitetsindikatorer. Hur fångar man false positives och false negatives?
+Fredrik tipsar om att kolla på "map" i modellen, kan var något.
+* Vad ska du göra till nästa avstämning?  
+Tittar vidare på verifieringsfunktionen (MIP-82). Kommer också att lägga en del tid på LIA.
+* Behöver du hjälp med något?  
+Nej.
+
+#### Övrigt  
+Andreas och Fredrik föreslår att ha rutorna runt skyltarna i olika färger och lägga texten som en legend, kanske utanför bilden. Vi skapar en ny issue för detta.
+
+____________________________________________________________________________________________________
 ## Daily standup 2022-05-23
 
 #### Abshir
@@ -21,8 +87,8 @@
 * jobbade med mip 79 o och mip 82  
 * Vad ska du göra till nästa avstämning?  
 * Behöver du hjälp med något?  
+____________________________________________________________________________________________________
 
-_____________________________________________________________________________________________
 ## Daily standup 2022-05-20
 
 #### Abshir
