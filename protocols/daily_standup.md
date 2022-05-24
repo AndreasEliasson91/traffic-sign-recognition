@@ -1,24 +1,24 @@
 **Mall "daily standup"**
 
-## Daily standup 2022-xx-xx
+## Daily standup 2022-05-23
 
 #### Abshir
-* Vad har du gjort sedan förra avstämningen?  
+* tittade lite på andreas vizualisation kod 
 * Vad ska du göra till nästa avstämning?  
 * Behöver du hjälp med något?  
 
 #### Andreas
-* Vad har du gjort sedan förra avstämningen?  
-* Vad ska du göra till nästa avstämning?  
+* andreas och kajsa körde mip 79 och tog bort openvc och bytte till PIL  
+*   
 * Behöver du hjälp med något?  
 
 #### Fredrik
-* Vad har du gjort sedan förra avstämningen?  
+* städat lite med cvs filer och filtrerat med bilder  
 * Vad ska du göra till nästa avstämning?  
 * Behöver du hjälp med något?  
 
 #### Kajsa
-* Vad har du gjort sedan förra avstämningen?  
+* jobbade med mip 79 o och mip 82  
 * Vad ska du göra till nästa avstämning?  
 * Behöver du hjälp med något?  
 
