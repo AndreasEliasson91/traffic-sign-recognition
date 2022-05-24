@@ -7,7 +7,8 @@ import torch
 
 from application.src.utils import get_root_path
 
-DEVICE = torch.device('cuda') if torch.cuda.is_available() else torch.device('cpu')
+DEVICE = torch.device('cpu')
+# DEVICE = torch.device('cuda') if torch.cuda.is_available() else torch.device('cpu')
 
 BATCH_SIZE = 2
 NUM_EPOCHS = 2
@@ -16,6 +17,7 @@ RESIZE_TO = 400
 OUT_DIR = str(get_root_path()) + '/data/outputs'
 TRAIN_DIR = str(get_root_path()) + '/data/datasets/LU-data/train'
 VALID_DIR = str(get_root_path()) + '/data/datasets/LU-data/valid'
+TEST_DIR = str(get_root_path()) + '/data/datasets/LU-data/test'
 WIKI_DIR = str(get_root_path()) + '/data/datasets/wikipedia-data/wikipedia'
 
 TEST_PATH = str(get_root_path()) + '/data/datasets/play_data'
