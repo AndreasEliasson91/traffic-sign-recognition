@@ -26,6 +26,53 @@
 
 ____________________________________________________________________________________________________
 
+## Daily standup 2022-05-25
+
+#### Abshir
+* Vad har du gjort sedan förra avstämningen?  
+Inte så mycket. Jobbade.
+* Vad ska du göra till nästa avstämning?  
+Jobba med presentationen. MIP-87 bl.a.
+* Behöver du hjälp med något?  
+
+
+#### Andreas
+* Vad har du gjort sedan förra avstämningen?  
+MIP-88. Färgkodning för skylt-predictions (boxar).<br>
+ Men även samma som Kajsa, satt med Joakim m.m.
+* Vad ska du göra till nästa avstämning?  
+Fixa med färger till MIP-88.<br>
+Har också mycket på hemmaplan, så kör lite med presentation vid tid.
+* Behöver du hjälp med något?  
+Kör lite med Kajsa, för att kolla över koden.
+
+#### Fredrik
+Frånvarande pga jobb.<br>
+Men han har tränat modellen under natten och delat den med gruppen. Men samma som Kajsa, satt med Joakim m.m.
+
+#### Kajsa
+* Vad har du gjort sedan förra avstämningen?  
+Diskuterade med Joakim (tillsammans med Andreas och Fredrik) om projektets nuvarande stadie och hur vi kan gå framåt.<br>
+Funderade vidare över presentationen.
+* Vad ska du göra till nästa avstämning?  
+Har mycket på hemmaplan, så kommer sitta vid tid senare i eftermiddag/ikväll. Kommer då fortsätta med verifieringsiffror för vår modells pricksäkerhet.<br>
+Ska även påbörja sin del av presentationen.
+* Behöver du hjälp med något?  
+Kör lite med Andreas, för att kolla över koden.
+
+#### Övrigt  
+Joakim pushade för att försöka med en video-funktionalitet till applikationen. Vi forskade lite på detta men bestämde oss för att inte gå vidare med det, då det är enklast att lösa med OpenCv och andra algrotimer än vi jobbat med.<br>
+Ska vi ha möte på klämdagen (fredag)? Nej, om inte för mycket dyker upp under dagen.<br><br><br>
+
+##### DEMO
+Alla bör ha sina delar klara på måndag kl. 13, så kör vi ett presentationsmöte och kollar igenom vad vi har och om vi behöver justera saker och ting<br>
+Fredrik är nog bäst lämpad att styra demonstrationen, då han kan visa RoboFlow och Colab på ett bra sätt.<br><br>
+Abshir väljer att inte presentera något.
+* Presentation av projekt (Gruppdynamik, Modellval) + problematik under projektetets gång + första demo: __Andreas__
+* Metod (Samverkan) + Beslut i vägval (JIRA/OpenCV vs. PIL/ipywidgets) + Hidden Layers vara eller icke vara + presentationsgränssnitt: __Kajsa__
+* Dataset + RoboFlow + Colab + Träning/modell: __Fredrik__
+
+____________________________________________________________________________________________________
 
 ## Daily standup 2022-05-24
 
