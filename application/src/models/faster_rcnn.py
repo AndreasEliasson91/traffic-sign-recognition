@@ -48,3 +48,19 @@ class RCNNModel:
             boxes = [box for box in predictions['boxes']]
 
         return predicted_labels, scores, boxes
+
+
+def load_model() -> RCNNModel:
+    """
+    Load the trained RCNN-model from .pth-file
+    :return: RCNNModel obj
+    """
+    from application.src.config import DEVICE, MODEL_NAME, OUT_DIR
+
+    model_path = str(OUT_DIR) + '/' + str(MODEL_NAME) + '.pth'
+
+    nm = RCNNModel()
+    nm.model.load_state_dict(torch.load(model_path, map_location=DEVICE))
+    nm.model.eval()
+
+    return nm
