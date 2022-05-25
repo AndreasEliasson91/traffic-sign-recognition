@@ -31,7 +31,7 @@ colors = [
 ]
 
 
-def show(image, labels, boxes, scores, sidebar=True) -> None:
+def show(image, labels, boxes, scores) -> None:
     from matplotlib.patches import Rectangle
     from matplotlib.lines import Line2D
 
@@ -58,25 +58,12 @@ def show(image, labels, boxes, scores, sidebar=True) -> None:
             lw=1
         ))
 
-        if not sidebar:
-            plt.text(x_min, y_min - 10, label, fontsize=6, color='r')
-            patch = Line2D([0], [0], marker='o', color='w', markerfacecolor=colors[i])
-            patches.append(patch)
-        else:
-            patch = Line2D([0], [0], marker='o', color='w', markerfacecolor=colors[i], label=label)
-            patches.append(patch)
+        patch = Line2D([0], [0], marker='o', color='w', markerfacecolor=colors[i], label=label)
+        patches.append(patch)
 
     box = ax.get_position()
     ax.set_position([box.x0, box.y0, box.width * 0.8, box.height])
 
-    # ax.legend(
-    #     handles=[patch for patch in patches],
-    #     loc='upper center',
-    #     bbox_to_anchor=(0.5, 1.8),
-    #     ncol=2,
-    #     fancybox=True,
-    #     shadow=True
-    # )
     ax.legend(
         bbox_to_anchor=(1.05, 1),
         loc='upper left',
@@ -90,7 +77,7 @@ def main():
     model = load_model()
     transform = transforms.Compose([transforms.ToTensor()])
 
-    image = Image.open('../application/data/datasets/play_data/a.jpg')
+    image = Image.open('../application/data/datasets/play_data/b.jpg')
     prediction_image = transform(image)
     prediction_image = prediction_image.view(1, 3, prediction_image.shape[1], prediction_image.shape[2])
 

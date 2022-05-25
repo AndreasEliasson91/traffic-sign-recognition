@@ -52,14 +52,14 @@ def main():
         path = '%s/%s' % (TEST_PATH, filename)
 
     image = Image.open(path)
-    image = transform(image)
-    image = image.view(1, 3, image.shape[1], image.shape[2])
+    prediction_image = transform(image)
+    prediction_image = prediction_image.view(1, 3, prediction_image.shape[1], prediction_image.shape[2])
 
-    labels, scores, boxes = model.predict(image)
+    labels, scores, boxes = model.predict(prediction_image)
 
     labels, scores, boxes = get_relevant_scores(labels, scores, boxes)
 
-    show(image, labels, boxes)
+    show(image, labels, boxes, scores)
     print_result(labels, scores)
 
 
