@@ -1,6 +1,6 @@
 **Mall "daily standup"**
 
-## Daily standup 2022-xx-xx
+## Daily standup 2022-XX-XX
 
 #### Abshir
 * Vad har du gjort sedan förra avstämningen?  
@@ -22,7 +22,120 @@
 * Vad ska du göra till nästa avstämning?  
 * Behöver du hjälp med något?  
 
-_____________________________________________________________________________________________
+#### Övrigt  
+
+____________________________________________________________________________________________________
+
+## Daily standup 2022-05-25
+
+#### Abshir
+* Vad har du gjort sedan förra avstämningen?  
+Inte så mycket. Jobbade.
+* Vad ska du göra till nästa avstämning?  
+Jobba med presentationen. MIP-87 bl.a.
+* Behöver du hjälp med något?  
+
+
+#### Andreas
+* Vad har du gjort sedan förra avstämningen?  
+MIP-88. Färgkodning för skylt-predictions (boxar).<br>
+ Men även samma som Kajsa, satt med Joakim m.m.
+* Vad ska du göra till nästa avstämning?  
+Fixa med färger till MIP-88.<br>
+Har också mycket på hemmaplan, så kör lite med presentation vid tid.
+* Behöver du hjälp med något?  
+Kör lite med Kajsa, för att kolla över koden.
+
+#### Fredrik
+Frånvarande pga jobb.<br>
+Men han har tränat modellen under natten och delat den med gruppen. Men samma som Kajsa, satt med Joakim m.m.
+
+#### Kajsa
+* Vad har du gjort sedan förra avstämningen?  
+Diskuterade med Joakim (tillsammans med Andreas och Fredrik) om projektets nuvarande stadie och hur vi kan gå framåt.<br>
+Funderade vidare över presentationen.
+* Vad ska du göra till nästa avstämning?  
+Har mycket på hemmaplan, så kommer sitta vid tid senare i eftermiddag/ikväll. Kommer då fortsätta med verifieringsiffror för vår modells pricksäkerhet.<br>
+Ska även påbörja sin del av presentationen.
+* Behöver du hjälp med något?  
+Kör lite med Andreas, för att kolla över koden.
+
+#### Övrigt  
+Joakim pushade för att försöka med en video-funktionalitet till applikationen. Vi forskade lite på detta men bestämde oss för att inte gå vidare med det, då det är enklast att lösa med OpenCv och andra algrotimer än vi jobbat med.<br>
+Ska vi ha möte på klämdagen (fredag)? Nej, om inte för mycket dyker upp under dagen.<br><br><br>
+
+##### DEMO
+Alla bör ha sina delar klara på måndag kl. 13, så kör vi ett presentationsmöte och kollar igenom vad vi har och om vi behöver justera saker och ting<br>
+Fredrik är nog bäst lämpad att styra demonstrationen, då han kan visa RoboFlow och Colab på ett bra sätt.<br><br>
+Abshir väljer att inte presentera något.
+* Presentation av projekt (Gruppdynamik, Modellval) + problematik under projektetets gång + första demo: __Andreas__
+* Metod (Samverkan) + Beslut i vägval (JIRA/OpenCV vs. PIL/ipywidgets) + Hidden Layers vara eller icke vara + presentationsgränssnitt: __Kajsa__
+* Dataset + RoboFlow + Colab + Träning/modell: __Fredrik__
+
+____________________________________________________________________________________________________
+
+## Daily standup 2022-05-24
+
+#### Abshir
+* Vad har du gjort sedan förra avstämningen?  
+Jobbade med LIA igår.
+* Vad ska du göra till nästa avstämning?  
+Ska jobba idag.
+* Behöver du hjälp med något?  
+Nej.
+
+#### Andreas
+* Vad har du gjort sedan förra avstämningen?  
+Började med presentationsnotebook. Andreas visar det han har gjort hittills för avstämning och gruppen tycker att det ser bra ut.
+* Vad ska du göra till nästa avstämning?  
+Tittar på att förbättra legend till visualiseringen (MIP-88). Kommer även att lägga en del tid på LIA.
+* Behöver du hjälp med något?  
+Nej.
+
+#### Fredrik
+* Vad har du gjort sedan förra avstämningen?  
+Suttit med datan och bland annat justerat för överrepresenterade bilder. Försökt att köra träning, men fastnade på att Roboflowlicensen behövde utökas.
+* Vad ska du göra till nästa avstämning?  
+Köra träning av modellen. Kommer inte att vara så tillgänglig resten av veckan pga jobb.
+* Behöver du hjälp med något?  
+Nej.
+
+#### Kajsa
+* Vad har du gjort sedan förra avstämningen?  
+Jobbat med verifieringsfunktion, MIP-82. Kajsa lyfter frågan vad som egentligen är bra kvalitetsindikatorer. Hur fångar man false positives och false negatives?
+Fredrik tipsar om att kolla på "map" i modellen, kan var något.
+* Vad ska du göra till nästa avstämning?  
+Tittar vidare på verifieringsfunktionen (MIP-82). Kommer också att lägga en del tid på LIA.
+* Behöver du hjälp med något?  
+Nej.
+
+#### Övrigt  
+Andreas och Fredrik föreslår att ha rutorna runt skyltarna i olika färger och lägga texten som en legend, kanske utanför bilden. Vi skapar en ny issue för detta.
+
+____________________________________________________________________________________________________
+## Daily standup 2022-05-23
+
+#### Abshir
+* tittade lite på andreas vizualisation kod 
+* Vad ska du göra till nästa avstämning?  
+* Behöver du hjälp med något?  
+
+#### Andreas
+* andreas och kajsa körde mip 79 och tog bort openvc och bytte till PIL  
+*   
+* Behöver du hjälp med något?  
+
+#### Fredrik
+* städat lite med cvs filer och filtrerat med bilder  
+* Vad ska du göra till nästa avstämning?  
+* Behöver du hjälp med något?  
+
+#### Kajsa
+* jobbade med mip 79 o och mip 82  
+* Vad ska du göra till nästa avstämning?  
+* Behöver du hjälp med något?  
+____________________________________________________________________________________________________
+
 ## Daily standup 2022-05-20
 
 #### Abshir
