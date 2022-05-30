@@ -19,6 +19,22 @@ skall klara detta issue nästa gång?
 
 _______________________________________________________________________________________
 
+## Sprint meeting week 22
+
+
+### Final sprint review
+* Blev alla issues klara? 
+  MIP-78, MIP-85
+* Om inte, varför<br>
+  - MIP-78 var ingen prio och vi la därför ingen tid på den
+  - MIP-85, den nytränade modellen gav ingen större resultatskillnad. Därav hoppade vi över denna issuen
+  
+* Bedöm vad ni kan göra bättre i nästa projekt
+<br><br>Det blev bättre för varje sprint och inkluderingen/uppdelningen av issues förbättrades allteftersom.<br>
+  - Behålla kontinuitet genom projektet. Ibland stretchades reglerna som vi satte i projketets början, exemplevis vilka tider som vi skulle kunna vara nåbara
+  - Parprogrammeringens vara eller icke vara. Skulle vi testat på det mer? (För lite kodskrivande i detta projektet)
+  - Sidosysselsättningar, jobb etc., påverkade. Men vi hade bra kommunikation och vi anpassade arbeten och sprinter därefter
+
 
 ## Sprint meeting week 21
 
