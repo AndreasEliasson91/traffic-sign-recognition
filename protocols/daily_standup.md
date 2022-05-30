@@ -23,7 +23,39 @@
 * Behöver du hjälp med något?  
 
 #### Övrigt  
+____________________________________________________________________________________________________
 
+## Daily standup 2022-05-30
+
+#### Abshir
+Frånvarande 
+
+#### Andreas
+* Vad har du gjort sedan förra avstämningen?  
+Förberett presentation. Sorterat ut bilder till presentation.(MIP-87).
+* Vad ska du göra till nästa avstämning?  
+Göra klart presentation.
+* Behöver du hjälp med något?  
+Nej.
+
+#### Fredrik
+* Vad har du gjort sedan förra avstämningen?  
+Tränat om modellen, men insåg att man behöver tänka om lite och fylla ut med data om det ska bli bra. 
+* Vad ska du göra till nästa avstämning? 
+Förbereder det sista på presentationen. Ladda upp de nya bilderna till projektet. Kontakta Joakim och boka så att vi får presentera först.
+* Behöver du hjälp med något?  
+Nej.
+
+#### Kajsa
+* Vad har du gjort sedan förra avstämningen?  
+Förberett presentation och jobbat med MIP-82.
+* Vad ska du göra till nästa avstämning?
+Kommer att lägga sista handen vid MIP-82 under eftermiddagen.  
+* Behöver du hjälp med något?  
+Nej.
+
+#### Övrigt  
+Gått igenom och förberett inför demodagen imorgon.
 ____________________________________________________________________________________________________
 
 ## Daily standup 2022-05-25
