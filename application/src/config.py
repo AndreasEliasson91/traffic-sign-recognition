@@ -7,7 +7,8 @@ import torch
 
 from application.src.utils import get_root_path
 
-DEVICE = torch.device('cuda') if torch.cuda.is_available() else torch.device('cpu')
+DEVICE = torch.device('cpu')
+# DEVICE = torch.device('cuda') if torch.cuda.is_available() else torch.device('cpu')
 
 BATCH_SIZE = 2
 NUM_EPOCHS = 2
