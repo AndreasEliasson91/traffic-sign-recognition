@@ -17,6 +17,7 @@ RESIZE_TO = 400
 OUT_DIR = str(get_root_path()) + '/data/outputs'
 TRAIN_DIR = str(get_root_path()) + '/data/datasets/LU-data/train'
 VALID_DIR = str(get_root_path()) + '/data/datasets/LU-data/valid'
+TEST_DIR = str(get_root_path()) + '/data/datasets/LU-data/test'
 WIKI_DIR = str(get_root_path()) + '/data/datasets/wikipedia-data/wikipedia'
 
 TEST_PATH = str(get_root_path()) + '/data/datasets/play_data'

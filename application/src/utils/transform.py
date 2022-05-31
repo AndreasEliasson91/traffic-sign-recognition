@@ -33,3 +33,7 @@ def get_train_transform() -> albumentations.Compose:
 
 def get_valid_transform() -> albumentations.Compose:
     return A.Compose([ToTensorV2(p=1.0)], bbox_params=A.BboxParams(format='pascal_voc', label_fields=['labels']))
+
+
+def get_test_transform() -> albumentations.Compose:
+    return A.Compose([ToTensorV2(p=1.0)], bbox_params=A.BboxParams(format='pascal_voc', label_fields=['labels']))

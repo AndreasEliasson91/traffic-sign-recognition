@@ -12,8 +12,8 @@ from PIL import Image
 from torch.utils.data import Dataset, DataLoader
 from xml.etree import ElementTree as et
 
-from application.src.config import TRAIN_DIR, RESIZE_TO, VALID_DIR, CLASSES, BATCH_SIZE
-from application.src.utils.transform import get_train_transform, get_valid_transform
+from application.src.config import TRAIN_DIR, RESIZE_TO, VALID_DIR, CLASSES, BATCH_SIZE, TEST_DIR
+from application.src.utils.transform import get_train_transform, get_valid_transform, get_test_transform
 from application.src.utils import collate_fn
 
 
@@ -96,6 +96,7 @@ class CustomDataset(Dataset):
 # prepare datasets and data loaders
 train_dataset = CustomDataset(TRAIN_DIR, RESIZE_TO, RESIZE_TO, CLASSES, get_train_transform())
 valid_dataset = CustomDataset(VALID_DIR, RESIZE_TO, RESIZE_TO, CLASSES, get_valid_transform())
+test_dataset = CustomDataset(TEST_DIR, RESIZE_TO, RESIZE_TO, CLASSES, get_test_transform())
 
 
 train_loader = DataLoader(
@@ -107,6 +108,13 @@ train_loader = DataLoader(
 )
 valid_loader = DataLoader(
     valid_dataset,
+    batch_size=BATCH_SIZE,
+    shuffle=False,
+    num_workers=0,
+    collate_fn=collate_fn
+)
+test_loader = DataLoader(
+    test_dataset,
     batch_size=BATCH_SIZE,
     shuffle=False,
     num_workers=0,
